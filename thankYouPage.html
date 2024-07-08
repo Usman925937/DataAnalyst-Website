@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fce6ef;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 60px 120px;
+            border-radius: 30px;
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 60px;
+            background-color: white;
+            border-bottom: 3px solid #e0e0e0;
+            border-radius: 30px 30px 0 0;
+        }
+        .logo nav a {
+            text-decoration: none;
+            color: black;
+            margin: 0 40px;
+            font-size: 22px;
+        }
+        .message-icon {
+            font-size: 120px;
+            margin-bottom: 10px;
+            color: #ff4081;
+        }
+        .button {
+            background-color: #ff4081;
+            color: white;
+            padding: 15px 50px;
+            border: none;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 28px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #e03570;
+        }
+        h1 {
+            font-size: 48px;
+            color: #2d3e50;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 22px;
+            color: #2d3e50;
+            margin-bottom: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="generic.html">Certifications</a>
+                <a href="OtherProjects.html">More Projects</a>
+            </nav>
+        </div>
+        <div class="content">
+            <div class="message-icon">&#9993;</div> <!-- Email icon -->
+            <h1>Thanks for submitting!</h1>
+            <p>Your message has been sent!</p>
+            <a href="index.html" class="button">Go back</a>
+        </div>
+    </div>
+</body>
+</html>
